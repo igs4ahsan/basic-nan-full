@@ -1,0 +1,11 @@
+<h1>Login</h1>
+
+<form action="">
+    <x-input caption="Enter Your Name" ch></x-input>
+    <!-- <input type="text" [(ngModel)]="form.email" name="form.name" placeholder="Email" /><br>
+        <input type="password"  [(ngModel)]="form.password" name="form.password" placeholder="Password" /><br> -->
+        <button type="button" (click)="submit()">Login</button>
+        <button type="button" (click)="checkUsernameAvailablity()">Check Username Availablity</button>
+</form>
+
+<h2>{{form.email}}</h2>

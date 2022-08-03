@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@trucks/client-shared": ["libs/client-shared/src/index.ts"],
+      "@trucks/core-shared": ["libs/core-shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

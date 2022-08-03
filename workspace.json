@@ -1,5 +1,12 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "angular-web": "apps/angular-web",
+    "angular-web-e2e": "apps/angular-web-e2e",
+    "client-shared": "libs/client-shared",
+    "core-shared": "libs/core-shared",
+    "nativescript-mobile": "apps/nativescript-mobile",
+    "nest-server": "apps/nest-server"
+  }
 }
